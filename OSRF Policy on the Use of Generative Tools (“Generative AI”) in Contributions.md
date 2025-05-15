@@ -93,9 +93,9 @@ Note the fully-qualified name of the tools, including the provider and version/r
 
 You should also include the same statement in the pull request description for the pull request containing those commits. Although considered inferior in strength to the commit message statements, the pull request description statement has the benefit of greater visibility to reviewers. The pull request description, including the disclosure statement, may look like the following example.
 
-This pull request adds the capability to do amazing things to nodes. Closes \#42.
-
-Some portions of this pull request were generated using GitHub Copilot v3.2 and Amazon CodeWhisperer 2024/10 release.
+> This pull request adds the capability to do amazing things to nodes. Closes \#42.
+> 
+> Some portions of this pull request were generated using GitHub Copilot v3.2 and Amazon CodeWhisperer 2024/10 release.
 
 You may also add a comment in each source code file that includes generated tool output. However this is not mandatory and is considered inferior to including the disclosure statement in the commit message and the pull request description, as it has relatively weak traceability over time. For example:
 
